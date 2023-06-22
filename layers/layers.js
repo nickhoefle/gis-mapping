@@ -143,13 +143,8 @@ var lyr_Q22022_9 = new ol.layer.Vector({
                 source:jsonSource_Q22022_9, 
                 style: style_Q22022_9,
                 interactive: true,
-    title: 'Q2 2022<br />\
-    <img src="styles/legend/Q22022_9_0.png" /> 200,000 - 350,000<br />\
-    <img src="styles/legend/Q22022_9_1.png" /> 350,000 - 500,000<br />\
-    <img src="styles/legend/Q22022_9_2.png" /> 500,000 - 650,000<br />\
-    <img src="styles/legend/Q22022_9_3.png" /> 650,000 - 800,000<br />\
-    <img src="styles/legend/Q22022_9_4.png" /> 800,000 - 3,000,000<br />'
-        });
+    title: '<div style="padding-bottom:7px">Q2 2022</div><hr style="padding-left:150px;">'
+});
 var format_Q32022_10 = new ol.format.GeoJSON();
 var features_Q32022_10 = format_Q32022_10.readFeatures(json_Q32022_10, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -162,13 +157,8 @@ var lyr_Q32022_10 = new ol.layer.Vector({
                 source:jsonSource_Q32022_10, 
                 style: style_Q32022_10,
                 interactive: true,
-    title: 'Q3 2022<br />\
-    <img src="styles/legend/Q32022_10_0.png" /> 200,000 - 350,000<br />\
-    <img src="styles/legend/Q32022_10_1.png" /> 350,000 - 500,000<br />\
-    <img src="styles/legend/Q32022_10_2.png" /> 500,000 - 650,000<br />\
-    <img src="styles/legend/Q32022_10_3.png" /> 650,000 - 800,000<br />\
-    <img src="styles/legend/Q32022_10_4.png" /> 800,000 - 3,000,000<br />'
-        });
+    title: 'Q3 2022<br />'
+});
 var format_Q42022_11 = new ol.format.GeoJSON();
 var features_Q42022_11 = format_Q42022_11.readFeatures(json_Q42022_11, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -181,13 +171,8 @@ var lyr_Q42022_11 = new ol.layer.Vector({
                 source:jsonSource_Q42022_11, 
                 style: style_Q42022_11,
                 interactive: true,
-    title: 'Q4 2022<br />\
-    <img src="styles/legend/Q42022_11_0.png" /> 200,000 - 350,000<br />\
-    <img src="styles/legend/Q42022_11_1.png" /> 350,000 - 500,000<br />\
-    <img src="styles/legend/Q42022_11_2.png" /> 500,000 - 650,000<br />\
-    <img src="styles/legend/Q42022_11_3.png" /> 650,000 - 800,000<br />\
-    <img src="styles/legend/Q42022_11_4.png" /> 800,000 - 3,000,000<br />'
-        });
+    title: 'Q4 2022<br />'
+});
 var format_Q12023_12 = new ol.format.GeoJSON();
 var features_Q12023_12 = format_Q12023_12.readFeatures(json_Q12023_12, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -200,13 +185,8 @@ var lyr_Q12023_12 = new ol.layer.Vector({
                 source:jsonSource_Q12023_12, 
                 style: style_Q12023_12,
                 interactive: true,
-    title: 'Q1 2023<br />\
-    <img src="styles/legend/Q12023_12_0.png" /> 200,000 - 350,000<br />\
-    <img src="styles/legend/Q12023_12_1.png" /> 350,000 - 500,000<br />\
-    <img src="styles/legend/Q12023_12_2.png" /> 500,000 - 650,000<br />\
-    <img src="styles/legend/Q12023_12_3.png" /> 650,000 - 800,000<br />\
-    <img src="styles/legend/Q12023_12_4.png" /> 800,000 - 3,000,000<br />'
-        });
+    title: 'Q1 2023<br />'
+});
 var format_Q22023_13 = new ol.format.GeoJSON();
 var features_Q22023_13 = format_Q22023_13.readFeatures(json_Q22023_13, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -219,12 +199,7 @@ var lyr_Q22023_13 = new ol.layer.Vector({
                 source:jsonSource_Q22023_13, 
                 style: style_Q22023_13,
                 interactive: true,
-    title: 'Q2 2023<br />\
-    <img src="styles/legend/Q22023_13_0.png" /> 200,000 - 350,000<br />\
-    <img src="styles/legend/Q22023_13_1.png" /> 350,000 - 500,000<br />\
-    <img src="styles/legend/Q22023_13_2.png" /> 500,000 - 650,000<br />\
-    <img src="styles/legend/Q22023_13_3.png" /> 650,000 - 800,000<br />\
-    <img src="styles/legend/Q22023_13_4.png" /> 800,000 - 3,000,000<br />'
+    title: 'Q2 2023<br />'
         });
 var format_KeyLocationsAttractions_14 = new ol.format.GeoJSON();
 var features_KeyLocationsAttractions_14 = format_KeyLocationsAttractions_14.readFeatures(json_KeyLocationsAttractions_14, 
@@ -238,7 +213,17 @@ var lyr_KeyLocationsAttractions_14 = new ol.layer.Vector({
                 source:jsonSource_KeyLocationsAttractions_14, 
                 style: style_KeyLocationsAttractions_14,
                 interactive: true,
-                title: '<img src="styles/legend/KeyLocationsAttractions_14.png" /> Key Locations/Attractions'
+                title: '\
+                    <img src="styles/legend/KeyLocationsAttractions_14.png" /> Key Locations/Attractions<br /><hr />\
+                    <div style="position: relative; left:0;">\
+                        <p style="text-decoration:underline; font-weight:bold; padding-left:25px">Real Estate Data</p>\
+                        <p style="padding-left:35px">Home Prices</p>\
+                        <img src="styles/legend/Q22023_13_0.png" /> 200,000 - 350,000<br />\
+                        <img src="styles/legend/Q22023_13_1.png" /> 350,000 - 500,000<br />\
+                        <img src="styles/legend/Q22023_13_2.png" /> 500,000 - 650,000<br />\
+                        <img src="styles/legend/Q22023_13_3.png" /> 650,000 - 800,000<br />\
+                        <img src="styles/legend/Q22023_13_4.png" /> 800,000 - 3,000,000\<br><br>\
+                    </div>'
             });
 
 lyr_OpenStreetMap_0.setVisible(true);lyr_PopulationSqMile_1.setVisible(false);lyr_WaterSprings_2.setVisible(false);lyr_GolfCourses_3.setVisible(false);lyr_FloatTripOutfitters_4.setVisible(false);lyr_Wineries_5.setVisible(false);lyr_GroceryStores_6.setVisible(false);lyr_Restaurants_7.setVisible(false);lyr_RestaurantsNames_8.setVisible(false);lyr_Q22022_9.setVisible(false);lyr_Q32022_10.setVisible(false);lyr_Q42022_11.setVisible(false);lyr_Q12023_12.setVisible(false);lyr_Q22023_13.setVisible(true);lyr_KeyLocationsAttractions_14.setVisible(false);
