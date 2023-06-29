@@ -18,7 +18,7 @@ var style_Q22022_9 = function(feature, resolution){
     var offsetY = 3;
     var placement = 'point';
     if (feature.get("PRICE") !== null) {
-        labelText = String(feature.get("PRICE"));
+        labelText = "$" + value.toLocaleString();
     }
     if (value >= 200000.000000 && value <= 350000.000000) {
             style = [ new ol.style.Style({

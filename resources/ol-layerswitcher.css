@@ -20,12 +20,12 @@
 .layer-switcher .panel {
     padding: 0 1em 0 0;
     margin: 0;
-    border: 4px solid #eee;
     border-radius: 4px;
     background-color: white;
     display: none;
     max-height: 100%;
     overflow-y: auto;
+    outline: 3px solid black;
 }
 
 .layer-switcher.shown .panel {
